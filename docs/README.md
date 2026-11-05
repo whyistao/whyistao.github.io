@@ -1,12 +1,15 @@
 ---
 home: true
 title: 首页
-heroText: whyistao
+heroText: Hello
 tagline: 记录、思考与分享
 actions:
   - text: 开始阅读
     link: /guide/
     type: primary
+  - text: 单词挑战屋
+    link: /apps/word/index.html
+    type: secondary
   - text: GitHub
     link: https://github.com/whyistao
     type: secondary

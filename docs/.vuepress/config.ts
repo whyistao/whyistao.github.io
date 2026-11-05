@@ -4,7 +4,7 @@ import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  title: 'whyistao',
+  title: 'Hello',
   description: 'whyistao 的个人站点',
 
   bundler: viteBundler(),
