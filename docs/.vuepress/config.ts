@@ -40,7 +40,7 @@ export default defineUserConfig({
     // 顶部导航栏
     navbar: [
       { text: '首页', link: '/' },
-      { text: '指南', link: '/guide/' },
+      { text: '单词挑战屋', link: '/apps/word/' },
     ],
 
     // 侧边栏
