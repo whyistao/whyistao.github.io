@@ -1,15 +1,15 @@
 ---
 title: 用户协议
-description: 单词挑战屋用户协议
+description: '{{APP_NAME}}用户协议'
 sidebar: false
 ---
 
-# 单词挑战屋用户协议
+# {{APP_NAME}}用户协议
 
 <strong>最后更新日期：</strong>2026 年 11 月 6 日<br />
 <strong>生效日期：</strong>2026 年 11 月 6 日
 
-欢迎使用「单词挑战屋」（以下简称“本应用”）。本协议是您与本应用开发者（以下简称“我们”）之间就您下载、安装、使用本应用所订立的协议。
+欢迎使用「{{APP_NAME}}」（以下简称“本应用”）。本协议是您与本应用开发者（以下简称“我们”）之间就您下载、安装、使用本应用所订立的协议。
 
 请您在使用本应用前仔细阅读并充分理解本协议，特别是涉及免除或限制责任、争议解决等条款。您下载、安装、启动或使用本应用，即视为您已阅读并同意本协议。如您不同意本协议的任何内容，请停止使用并卸载本应用。
 
@@ -81,4 +81,4 @@ sidebar: false
 - 在本站点仓库提交 Issue：[whyistao/whyistao.github.io](https://github.com/whyistao/whyistao.github.io/issues)
 - 或通过 App Store 产品页面中提供的开发者联系方式与我们联系。
 
-[← 返回单词挑战屋](/apps/word/)
+[← 返回{{APP_NAME}}](/apps/word/)

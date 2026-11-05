@@ -1,15 +1,15 @@
 ---
 title: 隐私政策
-description: 单词挑战屋隐私政策
+description: '{{APP_NAME}}隐私政策'
 sidebar: false
 ---
 
-# 单词挑战屋隐私政策
+# {{APP_NAME}}隐私政策
 
 <strong>最后更新日期：</strong>2026 年 11 月 6 日<br />
 <strong>生效日期：</strong>2026 年 11 月 6 日
 
-「单词挑战屋」（以下简称“本应用”）由我们开发和运营。我们非常重视您的隐私和个人信息保护。本政策旨在说明您在使用本应用时，我们如何处理相关信息。
+「{{APP_NAME}}」（以下简称“本应用”）由我们开发和运营。我们非常重视您的隐私和个人信息保护。本政策旨在说明您在使用本应用时，我们如何处理相关信息。
 
 请您在使用本应用前仔细阅读本政策。您开始使用本应用，即表示您已理解并同意本政策所述的信息处理方式。
 
@@ -122,4 +122,4 @@ sidebar: false
 
 本应用使用 Apple 的 iCloud / CloudKit 服务实现数据同步。Apple 对相关数据的处理适用 Apple 的隐私政策。您可以通过访问 [Apple 隐私政策](https://www.apple.com/legal/privacy/) 了解更多信息。
 
-[← 返回单词挑战屋](/apps/word/)
+[← 返回{{APP_NAME}}](/apps/word/)

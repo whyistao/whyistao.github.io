@@ -4,12 +4,15 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
+import { APP_NAME } from './app'
+import { appNamePlugin } from './appNamePlugin'
+
 const wordAppIconPath = fileURLToPath(
   new URL('../apps/word/icon.png', import.meta.url),
 )
 
 /**
- * 将单词挑战屋的应用图标复制到构建产物中。
+ * 将应用图标复制到构建产物中。
  * 图标源文件与页面放在同一目录（docs/apps/word），
  * 构建后可通过 /apps/word/icon.png 访问。
  */
@@ -36,11 +39,13 @@ export default defineUserConfig({
     },
   }),
 
+  plugins: [appNamePlugin()],
+
   theme: defaultTheme({
     // 顶部导航栏
     navbar: [
       { text: '首页', link: '/' },
-      { text: '单词挑战屋', link: '/apps/word/' },
+      { text: APP_NAME, link: '/apps/word/' },
     ],
 
     // 侧边栏

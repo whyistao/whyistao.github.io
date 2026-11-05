@@ -4,7 +4,7 @@ title: 首页
 heroText: Hello
 tagline: 记录、思考与分享
 actions:
-  - text: 单词挑战屋
+  - text: '{{APP_NAME}}'
     link: /apps/word/index.html
     type: secondary
   - text: GitHub
